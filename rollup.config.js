@@ -21,7 +21,6 @@ export default {
     },
   ],
   plugins: [
-    external(),
     postcss(),
     url(),
     babel({
@@ -29,7 +28,8 @@ export default {
       exclude: "node_modules/**",
       //plugins: ["@babel/plugin-transform-runtime"],
     }),
-    resolve(),
     commonjs(),
+    resolve(),
+    external(),
   ],
 };
