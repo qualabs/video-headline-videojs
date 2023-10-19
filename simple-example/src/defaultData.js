@@ -1,0 +1,67 @@
+export const links = [
+  {
+    url: "https://dash.akamaized.net/dash264/TestCasesIOP41/MultiTrack/alternative_content/6/manifest_alternative_lang.mpd",
+    type: "application/dash+xml",
+    laUrl: null,
+    laType: null,
+    certUrl: null,
+    adTagUrl: null,
+    detectAdblock: false,
+    autoplay: true,
+    appId: "",
+    text: "VOD DASH wo DR",
+  },
+
+  {
+    url: "https://storage.googleapis.com/wvmedia/cenc/h264/tears/tears.mpd",
+    type: "application/dash+xml",
+    laUrl:
+      "https://proxy.uat.widevine.com/proxy?video_id=HDCP_None&provider=widevine_test",
+    laType: "com.widevine.alpha",
+    certUrl: null,
+    adTagUrl: null,
+    detectAdblock: false,
+    autoplay: false,
+    appId: "",
+    text: "VOD DASH + DRM Widevine",
+  },
+
+  {
+    url: "https://cph-p2p-msl.akamaized.net/hls/live/2000341/test/master.m3u8",
+    type: "application/x-mpegURL",
+    laUrl: "https://drm.zetatv.com.uy/fairplay/wadmin?id=80232&token=",
+    laType: "com.apple.fps.1_0",
+    certUrl: "https://drm.zetatv.com.uy/fairplay/certificate",
+    adTagUrl: null,
+    detectAdblock: false,
+    autoplay: false,
+    appId: "B129AB6D",
+    text: "HLS + DRM Fairplay",
+  },
+
+  {
+    url: "https://cdnw1.zetatv.com.uy/vod_cache/_definst_/vod_cache/amlst:1/85890/playlist.m3u8",
+    type: "application/x-mpegURL",
+    laUrl: null,
+    laType: null,
+    certUrl: null,
+    adTagUrl:
+      "https://pubads.g.doubleclick.net/gampad/ads?sz=640x480&iu=/124319096/external/ad_rule_samples&ciu_szs=300x250&ad_rule=1&impl=s&gdfp_req=1&env=vp&output=xml_vmap1&unviewed_position_start=1&cust_params=sample_ar%3Dpremidpostpod%26deployment%3Dgmf-js&cmsid=496&vid=short_onecue&correlator=",
+    detectAdblock: true,
+    autoplay: false,
+    appId: "",
+    text: "HLS + ADS",
+  },
+  {
+    url: "https://dash.akamaized.net/dash264/TestCasesIOP41/MultiTrack/alternative_content/6/manifest_alternative_lang.mpd",
+    type: "application/dash+xml",
+    laUrl: null,
+    laType: null,
+    certUrl: null,
+    adTagUrl: null,
+    detectAdblock: false,
+    autoplay: false,
+    appId: "",
+    text: "Custom",
+  },
+];
