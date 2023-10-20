@@ -1,12 +1,5 @@
-'use strict';
-
-var React = require('react');
-var PropTypes = require('prop-types');
-
-function _interopDefaultLegacy (e) { return e && typeof e === 'object' && 'default' in e ? e : { 'default': e }; }
-
-var React__default = /*#__PURE__*/_interopDefaultLegacy(React);
-var PropTypes__default = /*#__PURE__*/_interopDefaultLegacy(PropTypes);
+import React from 'react';
+import PropTypes from 'prop-types';
 
 function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) {
   try {
@@ -71382,11 +71375,11 @@ var VideoPlayer = /*#__PURE__*/function (_React$Component) {
     function render() {
       var _this5 = this;
 
-      return /*#__PURE__*/React__default["default"].createElement("div", {
+      return /*#__PURE__*/React.createElement("div", {
         className: "video-player"
-      }, /*#__PURE__*/React__default["default"].createElement("div", {
+      }, /*#__PURE__*/React.createElement("div", {
         "data-vjs-player": true
-      }, /*#__PURE__*/React__default["default"].createElement("video", {
+      }, /*#__PURE__*/React.createElement("video", {
         ref: function ref(node) {
           return _this5.videoTagNode = node;
         },
@@ -71396,21 +71389,21 @@ var VideoPlayer = /*#__PURE__*/function (_React$Component) {
   }]);
 
   return VideoPlayer;
-}(React__default["default"].Component);
+}(React.Component);
 VideoPlayer.propTypes = {
-  url: PropTypes__default["default"].string,
-  type: PropTypes__default["default"].string,
-  laUrl: PropTypes__default["default"].string,
-  certUrl: PropTypes__default["default"].string,
-  laType: PropTypes__default["default"].string,
-  adTagUrl: PropTypes__default["default"].string,
-  posterUrl: PropTypes__default["default"].string,
-  detectAdblock: PropTypes__default["default"].bool,
-  onPlayerCreated: PropTypes__default["default"].func,
-  playerCustomCss: PropTypes__default["default"].string,
-  controls: PropTypes__default["default"].bool,
-  autoplay: PropTypes__default["default"].bool,
-  appId: PropTypes__default["default"].string
+  url: PropTypes.string,
+  type: PropTypes.string,
+  laUrl: PropTypes.string,
+  certUrl: PropTypes.string,
+  laType: PropTypes.string,
+  adTagUrl: PropTypes.string,
+  posterUrl: PropTypes.string,
+  detectAdblock: PropTypes.bool,
+  onPlayerCreated: PropTypes.func,
+  playerCustomCss: PropTypes.string,
+  controls: PropTypes.bool,
+  autoplay: PropTypes.bool,
+  appId: PropTypes.string
 };
 VideoPlayer.defaultProps = {
   controls: true,
@@ -71418,4 +71411,4 @@ VideoPlayer.defaultProps = {
   posterUrl: null
 };
 
-module.exports = VideoPlayer;
+export { VideoPlayer as default };
