@@ -21,15 +21,15 @@ export default {
     }
   ],
   plugins: [
-    postcss(),
-    url(),
+    external(),
+    resolve(),
     babel({
       babelHelpers: 'runtime',
       exclude: 'node_modules/**'
       // plugins: ["@babel/plugin-transform-runtime"],
     }),
     commonjs(),
-    resolve(),
-    external()
+    postcss(),
+    url()
   ]
 }
