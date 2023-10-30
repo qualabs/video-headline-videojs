@@ -207,8 +207,8 @@ VideoPlayer.propTypes = {
   appId: PropTypes.string
 }
 
-VideoPlayer.defaultProps = {
-  controls: true,
-  autoplay: false,
-  posterUrl: null
-}
+// VideoPlayer.defaultProps = {
+//   controls: true,
+//   autoplay: false,
+//   posterUrl: null
+// }
