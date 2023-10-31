@@ -22,8 +22,8 @@
   },
   "peerDependencies": {
     "prop-types": "^15.8.1",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
   },
   "devDependencies": {
     "@babel/core": "^7.0.0",
@@ -45,8 +45,8 @@
     "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.29.4",
     "gh-pages": "^3.2.3",
-    "react": "^16.2.0",
-    "react-dom": "^16.2.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
     "react-scripts": "^5.0.0",
     "rollup": "^2.70.1",
     "rollup-plugin-peer-deps-external": "^2.2.4",
